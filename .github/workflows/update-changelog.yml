@@ -1,0 +1,13 @@
+name: update changelog
+
+on:
+  release:
+    types: [released]
+
+permissions: {}
+
+jobs:
+  update:
+    permissions:
+      contents: write
+    uses: https://github.com/Robin62066/E-commers-web.git
